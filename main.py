@@ -18,7 +18,7 @@ app = FastAPI()
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5179", "http://127.0.0.1:5179"],
+    allow_origins=["http://localhost:5179", "http://127.0.0.1:5179", "https://reel-predictor-frontend.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
