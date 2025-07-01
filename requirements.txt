@@ -4,5 +4,5 @@ python-multipart
 aiofiles
 python-dotenv
 openai~=1.93.0
-
+ffmpeg-python
 pydantic~=2.11.7
