@@ -6,7 +6,9 @@ import json
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
 # Initialize OpenAI client
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"))
